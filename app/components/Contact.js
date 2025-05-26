@@ -84,12 +84,12 @@ const About = () => {
         </div>
         <div className=" basis-128 flex justify-start flex-col mx-2">
           <div className="text-2xl font-bold mb-4 text-center md:text-start">
-            Let's connect
+            Let&apos;s connect
           </div>
           <div className="flex">
             <div className="md:basis-2/3 mb-4">
-              I'm currently looking for new opportunities, my inbox is always
-              open. Whether you have a question or just want to say hi, I'll try
+              I&apos;m currently looking for new opportunities, my inbox is always
+              open. Whether you have a question or just want to say hi, I&apos;ll try
               my best to get back to you!
             </div>
           </div>
@@ -172,7 +172,7 @@ const About = () => {
                     alt="SUCCESS"
                     className="mr-1 mt-1"
                   />
-                  <span>Form submitted successfully! We'll contact you soon. </span>
+                  <span>Form submitted successfully! We&apos;ll contact you soon. </span>
                 </div>
               )}
             </div>
