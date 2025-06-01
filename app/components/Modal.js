@@ -32,8 +32,8 @@ export default function Example({ open, onClose, content }) {
                 {/* <div className="mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10">
                   <ExclamationTriangleIcon aria-hidden="true" className="size-6 text-red-600" />
                 </div> */}
-                <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                 <div className='flex justify-between flex-row'> <DialogTitle as="h3" className="text-base font-semibold text-gray-900">
+                <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left text-gray-900">
+                 <div className='flex justify-between flex-row'> <DialogTitle as="h3" className="text-base font-semibold">
                     {content?.title} 
                   </DialogTitle>
                   <XMarkIcon className="h-5 w-5 hidden md:block cursor-pointer" onClick={onClose}/></div>
