@@ -59,7 +59,7 @@ const ref = useRef(null);
           </div>
           <div className="container grid grid-cols-1 text-center justify-center gap-2">
             
-            <div ref={ref} className="flex justify-center gap-8 flex-wrap">
+            <div ref={ref} className="flex justify-center gap-8 flex-wrap overflow-x-hidden">
               {aboutItems.map((item, index) => (
                 <motion.div
                   key={index}
