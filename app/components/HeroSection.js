@@ -10,7 +10,7 @@ const HeroSection = () => {
       <motion.div initial={{ opacity: 0, scale: 0.5}}
           animate={{ opacity: 1, scale: 1}}
           transition={{ duration: 0.8 }} className="container mx-auto flex flex-col place-items-center">
-        <div  className=""><h1 className="mb-4 text-7xl sm:text-5xl lg:text-8xl leading-normal 2xl:text-9xl font-bold text-center font-[oswald]">
+        <div  className=""><h1 className="mb-4 text-7xl sm:text-5xl md:text-8xl leading-normal 2xl:text-9xl font-bold text-center font-[oswald]">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-500 to-red-900">
               Hello, I&apos;m{" "}
             </span>
