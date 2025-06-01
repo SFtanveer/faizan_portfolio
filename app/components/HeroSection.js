@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className='2xl:mt-35 mt-20 md:mx-auto mx-2 h-[74vh] relative'>
+    <div className='2xl:mt-35 mt-20 md:mt-15 md:mx-auto mx-2 h-[74vh] relative'>
       <motion.div initial={{ opacity: 0, scale: 0.5}}
           animate={{ opacity: 1, scale: 1}}
           transition={{ duration: 0.8 }} className="container mx-auto flex flex-col place-items-center">
