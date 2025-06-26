@@ -33,7 +33,7 @@ const Mywork = () => {
       video: "/elyseesVideo.mp4",
     },
     {
-      background: "/ear_reality.png",
+      background: "/ear_reality.PNG",
       title: "Converted Figma Design into Pixel Perfect Next.js Code",
       description:
         "I transformed a ready-made Figma design into a fully responsive, high-performance website using Next.js and Tailwind CSS. The project involved meticulously translating the design into clean, semantic code while ensuring pixel-perfect accuracy across all screen sizes. I leveraged Tailwind for utility-first styling to maintain consistency and efficiency, and implemented responsive breakpoints for seamless mobile, tablet, and desktop experiences. The result is a modern, scalable, and visually faithful implementation of the original Figma design.",

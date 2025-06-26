@@ -34,7 +34,7 @@ const Card = ({ title, description, background}) => {
           style={{
             objectPosition: 
               background.includes("elysees_dashboard.png") || 
-              background.includes("ear_reality.png") 
+              background.includes("ear_reality.PNG") 
                 ? "center" 
                 : "top"
           }}
