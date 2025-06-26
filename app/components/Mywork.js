@@ -32,6 +32,13 @@ const Mywork = () => {
         "I designed and developed an intuitive frontend for a wealth management platform, transforming complex financial data into actionable insights. Starting from UI/UX wireframes, I built interactive dashboards with real-time data visualization, responsive layouts for all devices, and secure form validation for sensitive data. Using Bootstrap 5, I created custom data tables and streamlined workflows to enhance user productivity. The platform delivers seamless performance across desktop and mobile, with robust error handling and clean, maintainable code for future scalability.",
       video: "/elyseesVideo.mp4",
     },
+    {
+      background: "/earReality.png",
+      title: "Converted Figma Design into Pixel Perfect Next.js Code",
+      description:
+        "I transformed a ready-made Figma design into a fully responsive, high-performance website using Next.js and Tailwind CSS. The project involved meticulously translating the design into clean, semantic code while ensuring pixel-perfect accuracy across all screen sizes. I leveraged Tailwind for utility-first styling to maintain consistency and efficiency, and implemented responsive breakpoints for seamless mobile, tablet, and desktop experiences. The result is a modern, scalable, and visually faithful implementation of the original Figma design.",
+      video: "/EarReality.mp4",
+    },
   ];
 
   const handleCardClick = (item) => {

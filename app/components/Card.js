@@ -16,9 +16,9 @@ const Card = ({ title, description, background}) => {
     backgroundRepeat: "no-repeat",
   };
 
-  if (background === "/elysees_dashboard.png") {
+  if (background === "/elysees_dashboard.png" || background === "/earReality.png") {
     cardStyle.backgroundPosition = "center";
-  }
+}
 
   return (
     <>
