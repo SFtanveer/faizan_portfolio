@@ -16,16 +16,29 @@ const Card = ({ title, description, background}) => {
     backgroundRepeat: "no-repeat",
   };
 
-  if (background === "/elysees_dashboard.png" || background === "/earReality.png") {
-    cardStyle.backgroundPosition = "center";
-}
+//   if (background === "/elysees_dashboard.png" || background === "/earReality.png") {
+//     cardStyle.backgroundPosition = "center";
+// }
 
   return (
     <>
       <div
         className="h-52 md:h-72 md:w-104 rounded-t-xl relative group"
-        style={cardStyle}
+        // style={cardStyle}
       >
+        <Image
+          src={background}
+          alt={title}
+          fill
+          className="object-cover rounded-t-xl"
+          style={{
+            objectPosition: 
+              background.includes("elysees_dashboard.png") || 
+              background.includes("earReality.png") 
+                ? "center" 
+                : "top"
+          }}
+        />
         {/* <Image
       src="/stablesail.com_.png"
       width={500}
